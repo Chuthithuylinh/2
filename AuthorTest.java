@@ -6,7 +6,7 @@ public class AuthorTest {
         Scanner s=new Scanner(System.in);
         System.out.print("Enter email: ");
         String email=s.nextLine();
-        Author a = new Author("Edgar", "default", 'm');
+        Author a = new Author("Linh", "default", 'm');
         a.setEmail(email);
         System.out.println(a.toString());
     }
